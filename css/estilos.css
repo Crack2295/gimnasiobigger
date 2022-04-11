@@ -251,16 +251,7 @@ footer .container{
     filter: blur(2px);
 }
 
-/* transformaciones */
 
-.iconos ul li a:hover{
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 5px 0px rgba(0, 0, 0, 0.4);
-    filter: none;
-}
-.iconos ul li .facebook:hover{
-    background: var(--facebook);
-}
 /* HOJA DE SERVICIOS */
 /* SE APLICA GRID. mobile*/
 
