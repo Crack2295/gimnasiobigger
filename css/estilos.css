@@ -57,7 +57,7 @@ header{
         rgba(73, 69, 69, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url(./img/pexels-photo.jpg);
+    ,url(../img/pexels-photo.jpg);
 }
 
 header .container{
@@ -176,7 +176,7 @@ aside .container{
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url(./img/aside.png);
+    ,url(../img/aside.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 45px;
@@ -212,7 +212,7 @@ footer{
         rgba(73, 69, 69, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url(./img/pexels-photo.jpg) ;
+    ,url(../img/pexels-photo.jpg) ;
 }
 footer p{
     margin: 0;
@@ -374,7 +374,7 @@ main form {
         rgba(73, 69, 69, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url(./img/pexels-photo.jpg);
+    ,url(../img/pexels-photo.jpg);
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
