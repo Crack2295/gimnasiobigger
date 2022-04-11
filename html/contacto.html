@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="shortcut icon" href="./img/B1.png">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eca91ce74f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="img__logo">
+                <a href="./index.html"><img src="./img/bigger01.png" alt="logo" height="auto" width="100%"></a>
+            </div>
+            <div class="menu">
+                <nav class="menu">
+                    <a href="./index.html">Nosotros</a>
+                    <a href="./html/servicios.html">Servicios</a>
+                    <a href="./html/horarios.html">Horarios</a>
+                    <a href="./html/suplementos.html">Suplementos</a>
+                    <a href="./html/contacto.html">Contactos</a>
+                </nav>
+            </div>
+        </div>  
+    </header>
+    
+    <main>
+        <section id="titulo">
+            <h1>ENTRENA Y CUMPLÌ OBJETIVOS, <br> EMPEZA YA</h1>
+            <h2><span class="color-acento">completa los datos y nos pondremos en contacto a la brevedad</span> </h2>
+        </section>
+
+        <form action="">
+            <h2><span class="color-acento">Datos Personales</span></h2>
+            <label for="nombre"> <span class="color-acento">Nombre</span></label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre">
+            <label for="apellido"><span class="color-acento">Apellido</span></label>
+            <input type="text" id="apellido" placeholder="Ingrese su Apellido">
+            <label for="fecha"><span class="color-acento">Fecha de Nacimiento</span></label>
+            <input type="text" placeholder="Fecha de nacimiento" required>
+            <label for="mail"><span class="color-acento">Email</span></label>
+            <input type="email" id="mail" placeholder="Ingrese su email" required>
+            <label for="celular"><span class="color-acento">Celular</span></label>
+            <input type="text" id="celular" placeholder="Ingrese su nº de celular" required>           
+            <label for="multi"><span class="color-acento">Consulta</span></label>
+            <br>
+            <select>
+                <option value="0">Seleccione servicio</option>
+                <option value="1">Nutricion</option>
+                <option value="2">Ent.Funcional</option>
+                <option value="3">Musculacion</option>
+                <option value="4" disabled>Zumba Strong</option>
+            </select>
+
+            <textarea name="multi" id="multi" cols="30" rows="10"></textarea>
+            <label for="multi"><span class="color-acento">Info adicional</span></label>
+            <textarea name="multi" id="multi" cols="30" rows="5"></textarea>
+            <br>
+            <input type="checkbox" name="term" id="term" value="1" required><span class="color-acento">acepto bases y condiciones de bigger fitness club</span>
+            <input type="submit" value="Enviar ahora">
+            <input type="reset" value="Borrar todo">
+        </form>
+        <section id="ubicacion">
+            <div>
+                <h2>¿Donde estamos?</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2752.7188330806093!2d-58.53406118337881!3d-34.8674619404194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd7484cd8b18f%3A0x4e592ea2baedff1f!2sParque%20Mar%C3%ADa%20Teresa%20de%20Calcuta!5e0!3m2!1ses-419!2sar!4v1647231117623!5m2!1ses-419!2sar" width="" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy;Bigger fitness club 2022</p>
+        </div>
+        <div class="container">
+            <nav class="menu">
+                <a href="./index.html">Nosotros</a>
+                <a href="./html/servicios.html">Servicios</a>
+                <a href="./html/horarios.html">Horarios</a>
+                <a href="./html/suplementos.html">Suplementos</a>
+                <a href="./html/contacto.html">Contactos</a>
+            </nav>
+        </div>
+        <div class="iconos">
+            <ul>
+                <li> <a href="https://www.facebook.com/" target="__blank" class="face"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/bigger.fit/ " target="blank"  class="insta"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="https://www.twitter.com" target="__blank" class="twitter"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" target="__blank" class="ws"><i class="fa-brands fa-whatsapp-square"></i></a></li>
+            </ul>
+        </div>  
+    </footer>
+</body>
+
+</html>
