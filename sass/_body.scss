@@ -1,0 +1,193 @@
+/* index body */
+#nosotros {
+    justify-content: center;
+    flex-direction: column;
+
+    .container {
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+}
+
+#profesionales {
+    text-align: center;
+    background-color: #323232;
+
+    .container {
+    padding: 100px 0px;
+    }
+
+    h2 {
+    margin-top: 5px;
+    }
+}
+
+.profes {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.carta {
+    border: 5px solid #fd7d15;
+    background-color: #323232;
+    color: #fd7d15;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    line-height: 40px;
+}
+
+#caracteristicas {
+    .container {
+    text-align: center;
+    padding: 50px 12px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    }
+
+    ul {
+    list-style: none;
+    margin: 16px 0px;
+    font-weight: bold;
+    }
+}
+
+/* ASIDE */
+aside .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(0deg, #00000080, #00000080), url(../img/aside.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    margin: auto;
+}
+
+#info {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #323232;
+
+    h2 {
+    font-size: 3vw;
+    }
+
+    button {
+    font-size: 1vw;
+    }
+}
+
+.imgs__info {
+    display: flex;
+}
+
+/* HORARIOS */
+#titulo .container {
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#horarios .horarios__centrado {
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid black;
+
+    img {
+    padding: 10px;
+    }
+}
+
+  /* HOJA DE SUPLEMENTOS */
+
+.titulo__suple {
+    background-color: #323232;
+    color: #fd7d15;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* HOJA DE CONTACTOS */ 
+
+#titulo {
+text-align: center;
+padding: 15px;
+font-size: 20px;
+}
+
+main {
+form {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-image: linear-gradient(0deg, #49454580, #00000080), url(../img/pexels-photo.jpg);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+}
+
+textarea {
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+max-width: 100%;
+min-height: 100px;
+max-height: 200px;
+}
+
+#ubicacion div {
+margin: auto;
+text-align: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #323232;
+}

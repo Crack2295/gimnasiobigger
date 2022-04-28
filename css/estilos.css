@@ -380,8 +380,8 @@ main form {
     margin-bottom: 20px;
     background-image: linear-gradient(
         0deg,
-        rgba(73, 69, 69, 0.5),
-        rgba(0, 0, 0, 0.5)
+        #49454580,
+        #00000080
     )
     ,url(../img/pexels-photo.jpg);
     padding: 10px 20px;
@@ -431,19 +431,19 @@ textarea{
     }
     button{
         font-size: 20px;
-        color: rgb(253, 125, 21);
+        color: #fd7d15;
         font-weight: bold;
         padding: 10px 50px;
         border-radius: 20px;
         border: 3px solid black;
-        border: 2px 2px 10px rgb(0, 0, 0, 0,5);
-        background-color: rgb(50, 50, 50);
+        border: 2px 2px 10px #00000080;
+        background-color: #323232;
         background-position: center center;
         background-repeat: no-repeat;
     }
     
     button:hover{
-        background-color: rgb(253, 125, 21);
+        background-color: #fd7d15;
         color:aliceblue;
     }
     
@@ -620,7 +620,7 @@ textarea{
     
         /* Hoja de suplementos, veremos dijo nemo */
         .titulo__suple{
-            color: rgb(253, 125, 21);
+            color: #fd7d15;
             text-align: center;
             padding: 10px;
         }
@@ -644,7 +644,7 @@ textarea{
         
         .grid2 div{
             padding: 5px;
-            color: rgb(253, 125, 21);
+            color: #fd7d15;
             text-align: center;
             align-items: center;
         }
@@ -690,8 +690,8 @@ textarea{
             margin-bottom: 20px;
             background-image: linear-gradient(
                 0deg,
-                rgba(73, 69, 69, 0.5),
-                rgba(0, 0, 0, 0.5)
+                #49454580,
+                #00000080
             )
             ,url(../img/pexels-photo.jpg);
             padding: 10px 20px;

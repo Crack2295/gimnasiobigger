@@ -1,0 +1,103 @@
+@import "footer";
+
+
+
+
+
+
+/* header */
+
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+p, a, li {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4 {
+    font-family: hubba2;
+}
+
+body {
+    background-color: #fd7d15;
+}
+
+.color-acento {
+    color: aliceblue;
+}
+
+.color-acento-1 {
+    color: #fd7d15;
+}
+
+@font-face {
+    font-family: hubba1;
+    src: url(/letra/Hubba-Oblique.otf);
+}
+
+@font-face {
+    font-family: hubba2;
+    src: url(/letra/HubbaShadow-SemiBoldOblique.otf);
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+    &:hover {
+    color: #fd7d15;
+    }
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+  /*header  */
+
+header {
+    background-image: linear-gradient(0deg, #49454580, #00000080), url(../img/pexels-photo.jpg);
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .menu a {
+    padding-right: 30px;
+    display: inline;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+}
+
+.titulo {
+    text-align: center;
+    background-color: #323232;
+}
+
+button {
+    font-size: 10px;
+    color: #fd7d15;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    border: 2px 2px 10px #00000080;
+    background-color: #323232;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &:hover {
+    background-color: #fd7d15;
+    color: aliceblue;
+    }
+}
