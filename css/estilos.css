@@ -249,6 +249,13 @@ footer .container{
 }
 .iconos ul:hover a{
     filter: blur(2px);
+
+}
+/* nav foooter */
+
+.navfin ul li a{
+    color: aliceblue;
+
 }
 
 /* transformaciones */
