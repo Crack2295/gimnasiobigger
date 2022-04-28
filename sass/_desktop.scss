@@ -1,4 +1,5 @@
-@media (min-width: 768px){
+@media (min-width: 768px)
+{
     body {
         background: linear-gradient(to top, #f77b28, #181818, #665b4f, #f77b28);
     }
@@ -162,8 +163,6 @@
         }
     }
     
-      /* damos "estilo" */
-    
       /* horarios desktop */
       /* se saco los bordes y se corrigio el fondo del boton */
     
@@ -242,14 +241,17 @@
         }
     }
     
-    .grid .info__creatina {
-        grid-area: 3/ 2/ 4/ 3;
+    .grid {
+        .info__creatina {
+            grid-area: 3/ 2/ 4/ 3;
+        }
     }
     
     .grid2 {
         .titulo__vitamina {
-        grid-area: 1/ 3/ 2/ 4;
+            grid-area: 1/ 3/ 2/ 4;
         }
+    }
     
         .img__vitamina {
         grid-area: 2/ 3/ 3/ 4;
@@ -258,7 +260,6 @@
         .info__vitaminas {
         grid-area: 3/ 3 / 4/ 4;
         }
-    }
     
     /* hoja contactos acomodar tamaños*/
     
