@@ -6,7 +6,7 @@
     gap: 5px;
     padding: 5px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, auto);
+    grid-template-rows: repeat(auto);
 
     .tituloss {
     grid-column: 1/-1;
