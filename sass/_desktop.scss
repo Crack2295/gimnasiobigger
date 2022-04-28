@@ -1,3 +1,325 @@
 @media (min-width: 768px){
-  
+    body {
+        background: linear-gradient(to top, #f77b28, #181818, #665b4f, #f77b28);
+    }
+    
+    button {
+        font-size: 20px;
+        color: #fd7d15;
+        font-weight: bold;
+        padding: 10px 50px;
+        border-radius: 20px;
+        border: 3px solid black;
+        border: 2px 2px 10px #00000080;
+        background-color: #323232;
+        background-position: center center;
+        background-repeat: no-repeat;
+    
+        &:hover {
+        background-color: #fd7d15;
+        color: aliceblue;
+        }
+    }
+    
+      /* encabezado */
+    
+    header {
+        .container {
+        flex-direction: row;
+        justify-content: center;
+        }
+    
+        .menu {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-bottom: 10px;
+        }
+    }
+    
+      /* index */
+    
+    #nosotros {
+        .container {
+        display: flex;
+        flex-direction: initial;
+        justify-content: center;
+        }
+    
+        h2 {
+        color: black;
+        }
+    
+        .texto {
+        width: 50%;
+        max-width: 600px;
+        font-weight: bold;
+        padding: 20px 150px;
+        text-align: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    }
+    
+      /* parte problematica de seccion "nosotros , profes" */
+    
+    .profes {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #profesionales p {
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .carta {
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+    }
+    
+      /* footer */
+    
+    footer {
+        justify-content: flex-end;
+    }
+    
+      /* Grid parte servicios full */
+    
+    .grid {
+        display: grid;
+        background-color: aliceblue;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    
+        div {
+        text-align: center;
+        border: 5px solid black;
+        justify-content: center;
+        padding: 5px;
+        }
+    
+        .tituloss {
+        grid-area: 1 / 1 / 2 / 5;
+        }
+    
+        .texto1 {
+        grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        flex-direction: row;
+        }
+    
+        .texto2 {
+        display: flex;
+        flex-direction: row;
+        grid-area: 3 / 1 / 4 / 2;
+        }
+    
+        .texto3 {
+        display: flex;
+        flex-direction: row;
+        grid-area: 4/ 1 / 5 / 2;
+        }
+    
+        .texto4 {
+        display: flex;
+        flex-direction: row;
+        grid-area: 5/ 1 / 6 / 2;
+        }
+    
+        .img__clase1 {
+        grid-area: 2 / 2 / 3 /3;
+        }
+    
+        .img__clase2 {
+        grid-area: 3 / 2 / 4 /3;
+        }
+    
+        .img__clase3 {
+        grid-area: 4 / 2 / 4 / 3;
+        }
+    
+        .img__clase4 {
+        grid-area: 5 / 2 / 5 / 3;
+        }
+    
+        .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        grid-area: 2 / 3 / 6 / 5;
+        }
+    
+        h3 {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 30px;
+        }
+    
+        p {
+        font-size: 18px;
+        margin: auto;
+        }
+    }
+    
+      /* damos "estilo" */
+    
+      /* horarios desktop */
+      /* se saco los bordes y se corrigio el fondo del boton */
+    
+    #titulo .container {
+        display: flex;
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #horarios .horarios__centrado {
+        display: flex;
+        text-align: center;
+        padding: 10px 10px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+    
+        img {
+        width: 50%;
+        padding: 20px;
+        }
+    }
+    
+      /* Hoja de suplementos, veremos dijo nemo */
+    
+    .titulo__suple {
+        color: #fd7d15;
+        text-align: center;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    
+    /* aplicaremos grid y correcion de img prote, 3 filas de 3 columnas, se lee de arriba a abajo.*/
+    
+    .img__proteina img {
+        height: 50%;
+        padding: 0;
+    }
+    
+    .grid2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 50px;
+    
+        div {
+        padding: 5px;
+        color: #fd7d15;
+        text-align: center;
+        align-items: center;
+        }
+    
+        .titulo__proteina {
+        grid-area: 1/ 1/ 2/ 2;
+        }
+    
+        .img__proteina {
+        grid-area: 2/ 1/ 3/ 2;
+        }
+    
+        .info__prote {
+        grid-area: 3/ 1/ 4/ 2;
+        }
+    
+        .titulo__creatina {
+        grid-area: 1/ 2/ 2/ 3;
+        }
+    
+        .img__creatina {
+        grid-area: 2/ 2/ 3/ 3;
+        }
+    }
+    
+    .grid .info__creatina {
+        grid-area: 3/ 2/ 4/ 3;
+    }
+    
+    .grid2 {
+        .titulo__vitamina {
+        grid-area: 1/ 3/ 2/ 4;
+        }
+    
+        .img__vitamina {
+        grid-area: 2/ 3/ 3/ 4;
+        }
+    
+        .info__vitaminas {
+        grid-area: 3/ 3 / 4/ 4;
+        }
+    }
+    
+    /* hoja contactos acomodar tamaños*/
+    
+    main {
+        form {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        background-image: linear-gradient(0deg, #49454580, #00000080), url(../img/pexels-photo.jpg);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 7px;
+        font-family: 'Chakra Petch', sans-serif;
+        }
+    
+        h2 {
+        color: aliceblue;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+        }
+    
+        form input {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+        }
+    }
+    
+    textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+        max-width: 100%;
+        min-height: 100px;
+        max-height: 200px;
+    }
+    
+    #ubicacion {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: none;
+        padding: 50px;
+    }
+    
+    .ubicacion {
+        width: 50%;
+    
+        iframe {
+        height: 300px;
+        }
+    }
 }
