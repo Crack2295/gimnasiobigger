@@ -274,8 +274,8 @@ textarea {
   padding: 5px;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: (auto)[1];
-      grid-template-rows: repeat(1, auto);
+  -ms-grid-rows: ()[auto];
+      grid-template-rows: repeat(auto);
 }
 
 .grid .tituloss {
@@ -700,8 +700,8 @@ footer .container {
     display: grid;
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
-    -ms-grid-rows: auto auto auto;
-        grid-template-rows: auto auto auto;
+    -ms-grid-rows: auto, auto, auto;
+        grid-template-rows: auto, auto, auto;
     gap: 50px;
   }
   .grid2 div {
@@ -945,4 +945,99 @@ button {
 button:hover {
   background-color: #fd7d15;
   color: aliceblue;
+}
+
+/* each */
+red {
+  background-color: red;
+}
+
+green {
+  background-color: green;
+}
+
+blue {
+  background-color: blue;
+}
+
+gray {
+  background-color: gray;
+}
+
+orange {
+  background-color: orange;
+}
+
+black {
+  background-color: black;
+}
+
+tomato {
+  background-color: tomato;
+}
+
+/* maps */
+.paleta-red-tw {
+  color: lightblue;
+}
+
+.paleta-red-fb {
+  color: blue;
+}
+
+.paleta-red-ig {
+  color: blueviolet;
+}
+
+.paleta-red-mail {
+  color: #8d6868;
+}
+
+.paleta-red-in {
+  color: darkblue;
+}
+
+.paleta-red-sp {
+  color: yellow;
+}
+
+.color-muestra {
+  background: aqua;
+}
+
+/* EXTEND */
+.img-full, .img__full--dark {
+  width: 100%;
+  height: auto;
+}
+
+.img__full--dark {
+  background-color: #004400;
+}
+
+/* MIXINS */
+.btn--danger {
+  display: inline-block;
+  padding: 20px;
+  border: black solid 10px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: #c3f0fc;
+}
+
+.btn--warning {
+  display: inline-block;
+  padding: 20px;
+  border: black solid 10px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: orange;
+}
+
+.btn--info {
+  display: inline-block;
+  padding: 10px;
+  color: blue;
+  background: yellow;
+  text-decoration: none;
 }

@@ -98,3 +98,81 @@ button {
     color: aliceblue;
     }
 }
+/* each */
+@each $background in red, green, blue, gray, orange, black, tomato {
+    #{$background} {
+        background-color: $background;
+    }
+    
+}
+
+
+/* maps */
+
+$paleta-redes: (
+    tw: lightblue,
+    fb: blue,
+    ig: blueviolet,
+    mail: #8d6868,
+    in: darkblue,
+    sp: yellow,
+);
+@each $nombre, $valor in $paleta-redes {
+    .paleta-red-#{$nombre} {
+        color: $valor;
+    }
+    
+}
+
+$colores: (
+    main: #000,
+    base: #333,
+    fondo: aqua,
+);
+
+.color-muestra{
+    background: map-get($map: $colores , $key: fondo );
+}
+
+/* EXTEND */
+.img-full{
+    width: 100%;
+    height:  auto;
+}
+
+.img__full--dark{
+    @extend .img-full;
+    background-color:  #004400;
+}
+
+/* MIXINS */
+@mixin btn {
+    display: inline-block;
+    padding: 20px;
+    border: black solid 10px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.btn--danger{
+    @include btn;
+    background-color: rgb(195, 240, 252);
+}
+
+.btn--warning{
+    @include btn;
+    background-color: orange;
+}
+
+@mixin btn($col, $bg) {
+    display: inline-block;
+    padding: 10px;
+    color: $col;
+    background: $bg;
+    text-decoration: none;
+}
+.btn--info{
+    @include btn(blue, yellow)
+
+}
+
