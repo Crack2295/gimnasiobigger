@@ -288,8 +288,8 @@ footer .container{
 
 .grid div{
     padding: 5px;
-    background-color: rgb(50, 50, 50);
-    color: rgb(253, 125, 21);
+    background-color: #323232;
+    color: #fd7d15;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -360,8 +360,8 @@ footer .container{
 
 .grid2 div{
     padding: 5px;
-    background-color: rgb(50, 50, 50);
-    color: rgb(253, 125, 21);
+    background-color: #323232;
+    color: #fd7d15;
     text-align: center;
     align-items: center;
 }

@@ -1,0 +1,57 @@
+/* HOJA DE SERVICIOS */
+/* SE APLICA GRID. mobile*/
+
+.grid {
+    display: grid;
+    gap: 5px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+
+    .tituloss {
+    grid-column: 1/-1;
+    }
+
+    div {
+    padding: 5px;
+    background-color: #323232;
+    color: #fd7d15;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .img__clase {
+    width: 100%;
+    height: auto;
+    }
+
+    div h4 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    }
+
+    .sidebar {
+    grid-column: 1 / -1;
+    }
+}
+
+  /* aplicaremos grid nuevamente, para mobile y luego desktop, mobil en una columnas */
+
+.grid2 {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+
+    div {
+    padding: 5px;
+    background-color: #323232;
+    color: #fd7d15;
+    text-align: center;
+    align-items: center;
+    }
+}
+
