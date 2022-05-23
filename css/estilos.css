@@ -38,6 +38,7 @@ body{
 a{
     text-decoration: none;
     color: aliceblue;
+    border-radius: 5px solid;
 }
 
 a:hover{
@@ -139,7 +140,13 @@ button:hover{
     margin: auto;
     align-items: center;
     text-align: center;
+    object-fit: fill;
 }
+
+.profes img{
+    object-fit: fill;
+}
+
 .carta{
     border: 5px solid rgb(253, 125, 21);
     background-color: rgb(50, 50, 50);
@@ -488,6 +495,7 @@ textarea{
         .profes{
             display: flex;
             justify-content: center;
+            object-fit: fill;
         }
     
         #profesionales p{
@@ -634,6 +642,7 @@ textarea{
         .img__proteina img{
             height: 50% ;
             padding: 0;
+            object-fit: fill;
         }
         .grid2{
             display: grid;

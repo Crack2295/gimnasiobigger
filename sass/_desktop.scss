@@ -68,6 +68,11 @@
         display: flex;
         justify-content: center;
     }
+    .profes{
+        img{
+            object-fit: fill;
+        }
+    }
     
     #profesionales p {
         display: block;
